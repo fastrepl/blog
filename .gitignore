@@ -27,3 +27,23 @@
 
 # Dotenv and similar local-only files
 *.local
+
+# Bun specific
+.bun
+bun.lockb
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+bun-debug.log*
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Build directories
+/build
+/out
+/.next
