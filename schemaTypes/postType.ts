@@ -47,7 +47,6 @@ export const postType = defineType({
       name: 'ctaTitle',
       title: 'Call to Action Title',
       type: 'string',
-      validation: (rule) => rule.required(),
     }),
     defineField({
       name: 'ctaType',
